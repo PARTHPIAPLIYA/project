@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout - Simple Online Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1><B><u>Store - Checkout</u></B></h1>
+    </header>
+
+    <div class="container">
+        <h2>Your Cart</h2>
+        <div class="checkout-grid">
+            <div class="cart-review" id="cart-review">
+                <p>Your cart is empty.</p>
+            </div>
+            <div class="checkout-form">
+                <form id="checkout-form">
+                    <h3>Enter Shipping Details</h3>
+
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="name" name="name" ><br><br>
+
+                    <label for="address">Address:</label><br>
+                    <input type="text" id="address" name="address" ><br><br>
+
+                    <label for="payment">Payment Method:</label><br>
+                    <select id="payment" name="payment">
+                        <option value="credit-card">Credit Card</option>
+                        <option value="paypal">PayPal</option>
+                    </select><br><br>
+
+                    <button type="submit" class="add-to-cart" style="background-color: #28a745;">Complete Purchase</button>
+                </form>
+            </div>
+        </div>
+    <p>
+        <a href="index.html" style="text-decoration: none;">
+            <button class="add-to-cart" style="background-color: #007bff;">Back to Products</button>
+        </a>
+    </p>
+    </div>
+
+    <footer>
+        <p>&copy;Online Store</p>
+    </footer>
+
+</body>
+</html>
